@@ -23,6 +23,6 @@ Below is a list of all available snippets and the triggers of each one. The **â‡
 
 ### Class helpers
 
-### Functiond
+### Functions
 
 [code]: https://code.visualstudio.com/
