@@ -1,0 +1,17 @@
+{
+	"Console.Log":{
+		"prefix": "clog",
+		"description": "Log output to console",
+		"body": "console.log('$1', $2);"
+	},
+	"For": {
+		"prefix": "forarr",
+		"body":[
+			"for (let ${index} = 0; ${index} < ${array}.length; ${index}++) {",
+			"\tconst ${element} = ${array}[${index}];",
+			"\t$0",
+			"}"
+		],
+		"description": "For Loop"
+	}
+}
